@@ -23,10 +23,15 @@
     
 </head>
 <body>
-    <div>請使用chrome(F12)->應用程式->左邊選單下Cookie->https://moi-mgr.moi.gov.tw->右邊ASP.NET_SessionId的值->將值複製下來再貼上</div>
-    <div>請輸入SessionID:<input type="text" name="sid" id="sid"></div>
+    <div style="padding:15px">使用說明:請使用chrome(F12)->應用程式->左邊選單下Cookie->https://moi-mgr.moi.gov.tw->右邊ASP.NET_SessionId的值->將值複製下來再貼上</div>
+    <div style="padding:2px"><img src="img/demo.png"  alt="這是圖片" title="oxxo"></div>
 
-    <div id="time-container">資料載入中...</div>
+    <div style="padding:2px">如出現<img src="img/demo2.png"  alt="這是圖片" title="oxxo">代表成功使用</div>
+    <hr>
+    <div style="padding:15px"><font color="red">請填入SessionID:</font><input type="text" name="sid" id="sid"></div>
+
+    <hr>
+    <div style="padding:15px" id="time-container">資料載入中...</div>
 
     
 </body>
