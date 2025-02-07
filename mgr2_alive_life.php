@@ -12,7 +12,7 @@
            
             const sid=$("#sid").val();
 
-            fetch('moi_alive.php?sid='+sid)
+            fetch('mgr2_alive.php?sid='+sid)
             .then(response => response.text())
             .then(data => {
             document.getElementById('time-container').innerHTML = data;
@@ -33,7 +33,7 @@
     
 </head>
 <body>
-    <div style="padding:10px"><h1>登入後不被登出</h1></div>
+    <div style="padding:10px"><h1>mgr2-登入後不被登出</h1></div>
     <div style="padding:10px"><h2>使用說明如下</h2></div>
     <div style="padding:15px" class="text-warning bg-dark">請先到已經登入的後台網站頁面下查找SessionID (Chrome按下F12)->再到應用程式標籤下->左邊選單下Cookie->https://moi-mgr.moi.gov.tw->右邊ASP.NET_SessionId的值->將值複製下來再貼上到SessionID的輸入框按下確定等待訊息出現即可,此頁不要關</div>
     <div style="padding:2px"><img src="img/demo.png"  alt="這是圖片" title="oxxo"></div>
