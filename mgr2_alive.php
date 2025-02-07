@@ -5,8 +5,8 @@
 
 
 $protectedUrl = "https://moi-mgr2.moi.gov.tw/SiteLobby.aspx";
-$session_value ='diuyvx4qqzj00nho4lgvofyz';
-//$session_value =$_GET['sid']; 
+//$session_value ='diuyvx4qqzj00nho4lgvofyz';
+$session_value =$_GET['sid']; 
 $sessionId = "ASP.NET_SessionId=$session_value"; // 直接帶入 Session ID
 
 $ch = curl_init();
